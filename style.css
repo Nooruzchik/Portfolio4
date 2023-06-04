@@ -1,0 +1,1102 @@
+@import url('http://fonts.cdnfonts.com/css/post-no-bills-jaffna');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* вход */
+.login {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+
+    height: 6vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation: fadeInDown 0.5s;
+}
+
+.sheduleDiv, .loginDiv {
+    display: flex;
+    align-items: center;
+
+}
+
+.Shedule{
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.icon {
+    width: 13px;
+    height: 18px;
+
+    padding-right: 17px;
+}
+
+/* шапка */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color:rgba(31, 29, 29, 1);
+
+    height: 10vh;
+}
+
+.logo {
+    margin-left: 120px;
+    font-family: 'Post No Bills Jaffna' , Medium;
+    font-weight: 500;
+    color: white;
+    font-size: 36px;
+    animation: fadeInLeft 1s;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 53px;
+}
+
+a:first-child{
+    display:flex;
+    align-items: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 35px 26px;
+    margin:26px;
+}
+
+.nav a:hover {
+    background-color: rgba(44, 42, 42, 1);
+}
+
+.Div{
+    display: flex;
+    align-items: center;
+}
+
+.like{
+    padding-left: 9px;
+    align-items: center;
+    justify-content: center;
+    width: 20;
+    height: 20px;
+}
+
+.lupa {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+
+    padding: 10px;
+    margin-left: 8px;
+
+    outline: none;
+    border-radius: 30px;
+    border: none;
+
+    width: 182px;
+    background-color: black;
+}
+
+/* 1 блок */
+
+.main1 {
+    background-image: url(images/fon.jpg.png);
+    background-size: cover;
+    background-color: palegreen;
+    background-position: center;
+    height: 608px;
+    min-height: 500px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    margin-top: 83px;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+
+    height: 320px;
+    width: 319px;
+
+    border: 4px solid white;
+
+    text-align: center;   
+}
+
+.H1 {
+    font-family: 'Train One', cursive; ;
+    font-weight: normal;
+    font-size: 60px;
+    margin-top: 84px;
+    margin-bottom:15px;
+}
+
+.line {
+    height: 2px;
+    width: 180px;
+    background-color: white;
+    margin: auto;
+}
+
+.pi {
+    font-size: 24px;
+    margin-bottom: 84px;
+    margin-top:23px
+}
+
+.text2 {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding-top: 42px;
+    margin-bottom: 58px;
+}
+
+/* 2блок */
+.first {
+    background-color: black;
+    display: flex;
+}
+
+.season{
+    width: 55%;
+    padding-top: 50px;
+
+}
+
+.seasonH2 {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+
+    margin-bottom: 25px;
+}
+
+.line2 {
+    background-color: white;
+    height: 2px;
+    width: 120px;
+    margin: auto;
+    margin-bottom: 34px;
+}
+
+span {
+    font-family: 'Post No Bills Jaffna', sans-serif;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pfoto1{
+    background-image: url(images/adidas.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 200px;
+    height: 325px;
+    
+}
+
+.pfoto2{
+    background-image: url(images/shark.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 200px;
+    height: 325px;
+}
+
+.pfoto3{
+    background-image: url(images/zoom.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 200px;
+    height: 325px;
+}
+
+.cardP {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+
+.cost {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 18px;
+
+}
+
+.new{
+    width:45%;
+    background-image: url(images/new.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.newcontent {
+    margin: auto;
+    text-align: center;
+}
+
+.newH2{
+    text-align: center;
+    color:white;
+    font-size: 36px;
+    font-weight: 400;
+
+    margin-bottom: 30px;
+}
+
+.line3 {
+    background-color: white;
+    height: 2px;
+    width: 120px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.newP{
+
+    color:white;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    border:1px solid white;
+    background-color: rgba(0,0,0,.5);
+
+    padding: 12px 36px 12px 36px;
+    
+
+}
+
+
+/* 3 блок */
+.block3{
+    display: flex;
+    background-color: black;
+    color:white;
+
+    height: 70vh;
+}
+
+.hudi__pfoto{
+    background-image: url(images/hudi.png);
+    width: 45%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.hudi{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;  
+      
+    font-size: 30px;
+}
+
+.hudiH2 {
+    font-size: 46px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.collection__hudi{
+    text-align: center;
+    border: 2px solid white;
+    border-radius:30px;
+    font-size:20px;
+    padding:10px 0 10px 0;
+    width: 350px;
+    color:white;
+    text-decoration: none;
+}
+
+/* 4блок */
+.block4{
+    background-color: black;
+    padding-top: 120px;
+    
+}
+
+.block4H2 {
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.allphotos {
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.bootsphoto, .hudiphoto {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    margin-top: 90px;
+}
+
+
+/* подвал */
+.footer{
+    padding: 34px 205px;
+    background-color:rgba(6, 6, 6, 0.87);
+    font-size: 14px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small{
+    font-size:16px;
+    color:white;
+}
+
+.langandsocial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialnetwork{
+    display: flex;
+    margin-top: 20px;
+}
+
+.logoImg1, .logoImg2{
+    margin-right: 15px;
+}
+
+.footer__a{
+    color:white;
+    font-size: 16px;
+}
+
+
+
+/* язык */
+.dropbtn {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    border: 1px white solid;
+}
+
+.lang{
+    width: 25px;
+}
+
+.dropIcon{
+    width: 10px;
+    object-fit: contain;
+}
+
+.dropbtn
+{
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 130px;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 0 5px 0px;
+    text-decoration: none;
+    display: block;
+
+}
+
+/* анимация при наведении */
+.dropdown-content a:hover {
+    background-color: rgba(6, 6, 6, 0.87);
+    color: white;
+}
+
+/* появление выпад меню */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*габургер меню*/
+
+
+ /* скрываем чекбокс */
+ #menu__toggle {
+    opacity: 0;
+  }
+  /* стилизуем кнопку */
+  .menu__btn {
+    display: flex; 
+    /* align-items: center;   */
+    /* position: absolute; */
+    /* top: 20px; */
+    /* right: 20px; */
+    width: 26px;
+    height: 26px;
+    z-index: 1;
+  }
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 45px;
+    height: 4px;
+    border-radius: 30px;
+    background-color: white;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -12px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 12px;
+  }
+  /* контейнер меню */
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+  }
+  /* элементы меню */
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+
+.hamburger-menu {
+visibility: hidden;
+position: absolute;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    /* шапка */
+    header{
+        justify-content: space-evenly;
+        padding-left: 20%;
+        padding-right: 350px;
+    }
+
+    /* .logo{
+        margin: 0;
+    } */
+
+    .nav {
+        visibility: hidden;
+    }
+
+    .hamburger-menu{
+        visibility: visible;
+        position: static;
+    }
+
+    #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        left: 0;
+      }
+
+      .menu__btn > span,
+       .menu__btn > span::before,
+       .menu__btn > span::after {
+         width: 30px;
+         height: 2px;
+         border-radius: 30px;
+   
+       }
+       .menu__btn > span::before {
+         content: '';
+         top: -9px;
+       }
+       .menu__btn > span::after {
+         content: '';
+         top: 9px;
+       }
+
+      /* 1 блок */
+    .main1{
+        height: auto;
+    }
+
+    .text1{
+        margin-top: 80px;
+        height: 250px;
+    }
+    
+    .H1{
+        font-size: 50px;
+        margin-top: 60px;
+        margin-bottom:15px;
+    }
+      
+    .pi{
+        margin-bottom: 0;
+    }
+
+    /* 2 блок */
+    .first{
+        display: block;
+        padding-bottom: 70px;
+    }
+
+    .season{
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .line2{
+        margin-bottom: 45px;
+    }
+
+    .cards{
+        justify-content: space-evenly;
+    }
+
+    .pfoto1, .pfoto2, .pfoto3{
+        width: 250px;
+    }
+
+    .cost{
+        margin-top: 15px;
+    }
+
+    .new {
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .newH2{
+        margin-top: 30px;
+    }
+
+    .newP{
+        width: 180px;
+    }
+
+    /* 4 блок */
+
+    .block4{
+        padding-top: 60px;
+    }
+
+    .block4H2{
+        margin-bottom: 50px;
+    }
+
+    .bootsphoto{
+        margin-top: 50px;
+    }
+
+    .hudiphoto{
+        margin-top: 0;
+    }
+
+    /* подвал */
+    .footer{
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .langandsocial{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 350px;
+    }
+
+    .socialnetwork{
+        margin-top: 0;
+    }
+}
+
+/* планшеты вертикально */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.shedule{
+    visibility: hidden;
+    position: absolute;
+} 
+.icon{
+    visibility: hidden;
+    position: absolute;
+}   
+header{
+    background-color: white;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.logo{
+    font-size:25px;
+    color: black;
+    margin-left: 0;
+}
+.login{
+    background-color: rgba(239, 239, 239, 0.6);
+    color:black;
+    font-size: 13px;
+
+    justify-content: space-between;
+}
+
+.nav{
+    position: absolute;
+    visibility: hidden;
+}
+
+.hamburger-menu{
+    visibility: visible;
+    position: static;
+}
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+      width: 25px;
+      height: 2px;
+      border-radius: 30px;
+      background-color: black;
+    }
+    .menu__btn > span::before {
+      content: '';
+      top: -9px;
+    }
+    .menu__btn > span::after {
+      content: '';
+      top: 9px;
+    }
+
+
+.lupa{
+     visibility: visible;
+     position: static;
+     width: 50px;
+     margin-right: 40px;
+     height: 15px;
+     background-color: rgba(239, 239, 239, 0.6);;
+    }
+
+
+.sheduleDiv{
+    margin-left: 38px;
+
+}
+
+.loginText{
+    padding-right: 38px;
+}
+
+.main1 {
+    background-image: url(images/fon.jpg.png);
+    background-size: cover;
+    background-color: palegreen;
+    background-position: center;
+    height: 608px;
+    min-height: 500px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    margin-top: 83px;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+
+    height: 200px;
+    width: 200px;
+
+    border: 4px solid white;
+
+    text-align: center;   
+}
+
+.H1 {
+    font-family: 'Train One', cursive; ;
+    font-weight: normal;
+    font-size: 24px;
+    margin-top: 57px;
+    margin-bottom:15px;
+}
+
+.line {
+    height: 2px;
+    width: 70px;
+    background-color: white;
+    margin: auto;
+}
+
+.pi {
+    font-size: 14px;
+    margin-bottom: 84px;
+    margin-top:23px
+}
+
+.text2 {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    padding-top: 42px;
+    margin-bottom: 58px;
+}
+
+.first{
+    display: block;
+    padding-bottom: 70px;
+}
+
+.season{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.line2{
+    margin-bottom: 45px;
+}
+
+.cards{
+    justify-content: space-evenly;
+}
+
+.pfoto1, .pfoto2, .pfoto3{
+    width: 200px;
+    height: 250px;
+}
+
+.cost{
+    margin-top: 15px;
+}
+
+.new {
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.newH2{
+    margin-top: 30px;
+}
+
+.newP{
+    width: 180px;
+}
+
+.block3{
+    display: flex;
+    background-color: black;
+    color:white;
+
+    height: 70vh;
+}
+
+.block4{
+    padding-top: 60px;
+}
+
+.block4H2{
+    margin-bottom: 50px;
+}
+
+.bootsphoto{
+    margin-top: 50px;
+}
+
+.hudiphoto{
+    margin-top: 0;
+}
+
+.footer{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.langandsocial{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+
+.socialnetwork{
+    margin-top: 0;
+}
+
+.block4{
+    visibility:hidden;
+    position: absolute;
+}
+
+}
+
+/* телефоны горизонтально */
+@media (max-width: 767px) {
+.login{
+    background-color:rgba(239, 239, 239, 0.6);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.loginText, .Shedule{
+    font-size: 13px;
+    color:black
+}
+.icon{
+    visibility: hidden;
+    position: absolute;
+}
+.shedule{
+    visibility: hidden;
+    position: absolute;
+}
+
+header{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 38px;
+    padding-right: 38px;
+}
+.logo{
+    color:black;
+    font-size:24px;
+    margin-left: 0;
+}
+.nav{
+    position: absolute;
+    visibility: hidden;
+}
+
+.hamburger-menu{
+    visibility: visible;
+    position: static;
+}
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+      width: 20px;
+      height: 2px;
+      border-radius: 30px;
+      background-color: black;
+    }
+    .menu__btn > span::before {
+      content: '';
+      top: -7px;
+    }
+    .menu__btn > span::after {
+      content: '';
+      top: 7px;
+    }
+
+    .lupa{
+        visibility: visible;
+        position: static;
+        width: 50px;
+        margin-right: 40px;
+        height: 15px;
+        background-color: rgba(239, 239, 239, 0.6);;
+    }
+    .main{
+height: 302px;
+    }
+.text1{
+    width: 150px;
+    height: 150px;
+}
+.text2{
+    visibility: hidden;
+    position: absolute;
+}
+
+.H1{
+    font-size: 24px;
+    margin-top: 33px;
+    margin-bottom:15px;
+}
+
+.line{
+    width: 60px;
+}
+
+.pi{
+    font-size: 14px;
+    margin-bottom: 34px;
+     margin-top:23px
+}
+.first{
+    display: block;
+}
+.season{
+    width: 100%;
+}
+
+.seasonH2{
+    font-size: 18px;
+}
+
+.pfoto1, .pfoto2, .pfoto3{
+    width: 150px;
+    height: 170px;
+}
+
+.cardP{
+    font-size: 14px;
+}
+.new{
+    width: 100%;
+    display: flex;
+    height: 300px;
+}
+
+.newH2{
+    font-size: 24px;
+}
+
+.hudi__pfoto{
+    width: 100%;
+    height: 400px;
+}
+
+.hudi{
+    position: absolute;
+}
+.hudiH2{
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.collection__hudi{
+    text-align: center;
+    font-size: 14px;
+width: 200px;
+}
+
+.footer{
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 44px;
+}
+
+.small, .footer__a{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.socialnetwork, .dropdown{
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialnetwork{
+    padding-bottom: 57px;
+}
+
+.block4{
+    visibility:hidden;
+    position: absolute;
+}
+
+}

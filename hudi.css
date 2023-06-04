@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;1,700&display=swap');
+
+body{
+    margin:0;
+    font-family:'PT Sans', sans-serif;
+}
+
+header{
+   padding-left: 173px;
+   display: flex;
+   margin-top: 34px;
+}
+
+.crumbs{
+    font-family:'PT Sans', sans-serif ; ;
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main{
+    margin-left: 70px;
+    margin-right: 15px;
+}
+
+.catalog{
+    display:flex;
+    margin-top:90px;
+    padding-bottom:200px;
+}
+
+.hudi1{
+    height: 649px;
+}
+
+.image,.image2,.image3{
+    width: 550px;
+    height: 650px;
+    padding-right: 30px;
+}
+
+.text{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.gray{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+}
+
+.footer{
+    padding: 34px 205px;
+    background-color:rgba(6, 6, 6, 0.87);
+    font-size: 14px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small{
+    font-size:16px;
+    color:white;
+}
+
+.langandsocial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialnetwork{
+    display: flex;
+    margin-top: 20px;
+}
+
+.logoImg1, .logoImg2{
+    margin-right: 15px;
+}
+
+.footer__a{
+    color:white;
+    font-size: 16px;
+}
+
+
+
+/* язык */
+.dropbtn {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    border: 1px white solid;
+}
+
+.lang{
+    width: 25px;
+}
+
+.dropIcon{
+    width: 10px;
+    object-fit: contain;
+}
+
+.dropbtn
+{
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 130px;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 0 5px 0px;
+    text-decoration: none;
+    display: block;
+
+}
+
+/* анимация при наведении */
+.dropdown-content a:hover {
+    background-color: rgba(6, 6, 6, 0.87);
+    color: white;
+}
+
+/* появление выпад меню */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

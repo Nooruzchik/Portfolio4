@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;1,700&display=swap');
+
+body{
+
+    margin: 0;
+    font-family:'PT Sans', sans-serif;
+    height: 1186px;
+}
+
+header{
+    padding-left: 173px;
+   display: flex;
+   margin-top: 40px;
+}
+
+.crumbs{
+    font-family:'PT Sans', sans-serif ; ;
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main{
+    padding-left: 173px;
+    display: flex;
+    align-items: center;
+    margin-right: 123px;
+    justify-content: space-between;
+}
+
+.pfotos{
+    margin-top:90px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 78px;
+}
+
+.fitting{
+    width: 350px;
+    height: 400px;
+}
+
+.fitting2{
+    width: 350px;
+    height: 400px;
+}
+
+.text{
+    display:block;
+    font-size:24px;
+    text-align: center;
+
+}
+
+.name{
+    font-size:48px;
+    width: 440px;
+    height: 144px;
+}
+
+.size{
+    display:flex;
+    justify-content: center;
+    margin-left:10px ;
+    margin-right:10px ;
+    margin-bottom: 36px;
+}
+
+.size1,.size2,.size3,.size4,.size5,.size6,.size7{
+    margin-left: 10px;
+    margin-right: 10px; 
+    text-decoration: none;
+    color:black
+}
+
+
+.price{
+    font-size:36px;
+    margin-bottom: 35px;
+}
+
+.color{
+    display: flex;
+    justify-content: center;
+}
+
+.color1,.color2{
+    border:3px solid rgba(0.0.0.1);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-left: 21px;
+    margin-right: 21px; 
+}
+
+.color1{
+    background-color: black;
+}
+
+.color3{
+    background-color: rgba(184, 44, 119, 1);
+    border:3px solid rgba(0,0,0,.1);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-left: 21px;
+}
+
+.like{
+    width: 25px;
+    height: 25px;
+    align-items: center;
+}
+
+.basket{
+    color:black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius:40px;
+    width: 400px;
+    height: 100px;
+    padding: 14px 70px 14px 70px;
+}
+
+.basket:hover{
+    background-color: black;
+    color:white;
+}
+
+.footer{
+    padding: 34px 205px;
+    background-color:rgba(6, 6, 6, 0.87);
+    font-size: 14px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small{
+    font-size:16px;
+    color:white;
+}
+
+.langandsocial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialnetwork{
+    display: flex;
+    margin-top: 20px;
+}
+
+.logoImg1, .logoImg2{
+    margin-right: 15px;
+}
+
+.footer__a{
+    color:white;
+    font-size: 16px;
+}
+
+
+
+/* язык */
+.dropbtn {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    border: 1px white solid;
+}
+
+.lang{
+    width: 25px;
+}
+
+.dropIcon{
+    width: 10px;
+    object-fit: contain;
+}
+
+.dropbtn
+{
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 130px;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 0 5px 0px;
+    text-decoration: none;
+    display: block;
+
+}
+
+/* анимация при наведении */
+.dropdown-content a:hover {
+    background-color: rgba(6, 6, 6, 0.87);
+    color: white;
+}
+
+/* появление выпад меню */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
